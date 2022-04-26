@@ -392,11 +392,13 @@ letter-spacing: 0.03em;
     max-width: 231px;
 }
 .footer-address-street {
+    display: block;
     margin-bottom: 9px;
 
     color: var(--white-bc-color);
 }
 .footer-mail-link {
+    display: block;
     margin-bottom: 9px;
 
     color: rgba(255, 255, 255, 0.6); 
@@ -514,10 +516,6 @@ letter-spacing: 0.03em;
     margin-right: 8px;
 }
 
-.filter-img {
-    margin-bottom: 30px;
-}
-
 .filter-btn {
     display: block;
     padding: 6px 22px;
@@ -608,13 +606,19 @@ letter-spacing: 0.03em;
     color: var(--white-bc-color);
 }
 
+.portfolio-contacts-list {
+    max-width: 231px;
+}
+
 .contacts-link-street {
-    margin-bottom: 9;
+    display: block; 
+
 
     color: var(--white-bc-color);
 }
 .contacts-mail-link {
-    margin-bottom: 9px;
+    display: block;
+    margin-top: 9px;
 
     color: rgba(255, 255, 255, 0.6);
 }
@@ -623,6 +627,8 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .contacts-tel-link {
+    display: block;
+    margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
 }
 .contacts-tel-link:hover,
