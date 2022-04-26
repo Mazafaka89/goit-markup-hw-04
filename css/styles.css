@@ -68,7 +68,7 @@ hover button #188CE8
      padding-left: 15px;
      padding-right: 15px;
      margin: 0 auto;
-     /*outline: 1px solid red; */
+     outline: 1px solid red;
  }
 
  .visually-hidden {
@@ -196,6 +196,15 @@ color: var(--primary-text-color);
     padding-bottom: 200px;
 
     background-color: var(--secondary-bc-color);
+
+        background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4)), 
+        url(../images/hero_bc.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 1600px;
+        margin: 0 auto;
 }
 .hero-title {
 font-weight: 900;
@@ -357,6 +366,19 @@ text-align: center;
 .team-box {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-social-link {
+    width: 44px;
+    height: 44px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: block;
 }
 
 /* ----- <footer> Контакты ----- */
