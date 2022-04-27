@@ -203,6 +203,7 @@ color: var(--primary-text-color);
         url(../images/hero_bc.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         max-width: 1600px;
         margin: 0 auto;
 }
@@ -360,6 +361,8 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 text-align: center;
 
+    margin-bottom: 16px;
+
     color: var(--secondary-text-color);
 }
 
@@ -373,12 +376,31 @@ text-align: center;
     justify-content: center;
 }
 
+.team-social-item + .team-social-item {
+    margin-left: 10px;
+}
+
 .team-social-link {
     width: 44px;
     height: 44px;
-    background-color: tomato;
+    background-color: var(--white-bc-color);
     border-radius: 50%;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--accent-color)
+}
+
+.team-social-icon {
+    fill: #AFB1B8;
+}
+
+.team-social-link:hover .team-social-icon {
+    fill: var(--white-bc-color);
 }
 
 /* ----- <footer> Контакты ----- */
