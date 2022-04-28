@@ -261,6 +261,18 @@ cursor: pointer;
     display: flex;
 }
 
+/*.features-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+
+    background-image: url(../images/features_antenna.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+} */
+
 .features-item:not(:last-child) {
     margin-right: 30px;
 }
