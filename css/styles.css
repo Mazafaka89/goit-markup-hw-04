@@ -53,6 +53,8 @@ hover button #188CE8
 
  img {
      display: block;
+     max-width: 100%;
+     height: auto;
  }
 
  .link {
@@ -253,8 +255,6 @@ cursor: pointer;
 .features {
     padding-top: 94px;
     padding-bottom: 94px;
-
-    background-color: var(--primary-bc-color);
 }
 
 .features-list {
@@ -275,6 +275,18 @@ cursor: pointer;
 
 .features-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.features-icon {
+display: flex;
+max-width: 270px;
+height: 120px;
+justify-content: center;
+align-items: center;
+
+margin-bottom: 30px;
+
+    background-color: var(--primary-bc-color)   
 }
 
 .features-top-text {
@@ -300,8 +312,6 @@ max-width: 270px;
 
 .work {
     padding-bottom: 94px;
-
-    background-color: var(--primary-bc-color);
 } 
 
 .work-pictures {
@@ -381,6 +391,8 @@ text-align: center;
 .team-box {
     padding-top: 30px;
     padding-bottom: 30px;
+
+    background-color: #fff;
 }
 
 .team-social-list {
@@ -413,6 +425,31 @@ text-align: center;
 
 .team-social-link:hover .team-social-icon {
     fill: var(--white-bc-color);
+}
+
+/* ----- Постоянные клиенты ----- */
+
+.clients {
+    padding: 94px 0px;
+}
+
+.clients-list {
+    display: flex;
+}
+
+.clients-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-position: center;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* ----- <footer> Контакты ----- */
