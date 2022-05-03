@@ -190,6 +190,7 @@ color: var(--primary-text-color);
     color: var(--accent-color);  
 }
 
+
 /* ----- Hero ----- */
 
 
@@ -433,9 +434,22 @@ text-align: center;
     padding: 94px 0px;
 }
 
+.clients-title {
+    margin-bottom: 50px;
+
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+    
+    color: var(--primary-text-color);
+
+}
+
 .clients-list {
     display: flex;
 }
+
 
 .clients-link {
     display: flex;
@@ -460,6 +474,12 @@ text-align: center;
 
     background-color: var(--secondary-bc-color);
 }
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-logo {  
     margin-bottom: 20px;
     display: block;
@@ -509,6 +529,53 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
+
+/* ----- Присоединяйтесь ----- */
+
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social-title {
+    margin-bottom: 20px;
+
+    color: var(--white-bc-color);
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-item + .footer-social-item {
+    margin-left: 10px;
+}
+
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-bc-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-color)
+}
+
+.footer-social-icon {
+    fill: var(--white-bc-color)
+}
+
+.footer-social-link:hover .team-social-icon {
+    fill: var(--white-bc-color);
+}
 /* Portfolio */
 
 .portfolio-page {
