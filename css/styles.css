@@ -176,11 +176,11 @@ color: var(--primary-text-color);
     color: var(--secondary-text-color);
    
     margin-right: 50px;
+    align-items: baseline;
 }
 
 .header-mail-icon {
     margin-right: 10px;
-    align-items: baseline;
     
     fill: var(--secondary-text-color);
     }
@@ -192,6 +192,8 @@ color: var(--primary-text-color);
 }
 
 .header-tel-link {
+    align-items: baseline;
+
     color: var(--secondary-text-color);
     
 }
