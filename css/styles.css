@@ -474,15 +474,15 @@ letter-spacing: 0.03em;
     fill: #AFB1B8;
 }
 
-.clients-link:hover
-.clients-link:focus {
+.clients-link:hover .clients-link-icon,
+.clients-link:focus .clients-link-icon {
     border-color: var(--accent-color);
     fill: var(--accent-color);
 }
 
 .clients-link-icon {
     fill: #AFB1B8;
-    display: block;
+    display: inline-block;
 }
 
 .clients-link-icon:hover .clients-link-icon:focus {
