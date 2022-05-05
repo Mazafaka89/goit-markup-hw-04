@@ -168,50 +168,55 @@ color: var(--primary-text-color);
 }
 
 .header-address {
-    display: inline-flex;
+    display: flex;
 }
 
-
 .header-mail-link {
+    display: flex;
     color: var(--secondary-text-color);
    
     margin-right: 50px;
-    align-items: baseline;
+    align-items: center;
+}
+
+.header-mail-link:hover,
+.header-mail-link:focus {
+    color: var(--accent-color);  
 }
 
 .header-mail-icon {
     margin-right: 10px;
     
-    fill: var(--secondary-text-color);
+    fill: currentColor;
     }
 
-.header-mail-link .header-mail-icon:hover,
-.header-mail-link .header-mail-icon:focus {
-    color: var(--accent-color);
-    fill: var(--accent-color);  
-}
-
 .header-tel-link {
-    align-items: baseline;
+    display: flex;
+    align-items: center;
 
     color: var(--secondary-text-color);
     
+}
+
+.header-tel-link:hover,
+.header-tel-link:focus {
+    color: var(--accent-color);
 }
 
 .header-tel-icon {
     margin-right: 10px;
     align-items: baseline;
     
-    fill: var(--secondary-text-color);
+    fill: currentColor;
     }
 
-
+/*
 .header-tel-link .header-tel-icon:hover,
 .header-tel-link .header-tel-icon:focus {
     color: var(--accent-color); 
     fill: var(--accent-color); 
 }
-
+*/
 
 /* ----- Hero ----- */
 
@@ -708,6 +713,9 @@ letter-spacing: 0.03em;
 
 
 .portfolio-mail-link {
+    display: flex;
+    align-items: center;
+
     margin-right: 50px;
     color: var(--secondary-text-color);
 }
@@ -717,6 +725,9 @@ letter-spacing: 0.03em;
 }
 
 .portfolio-tel-link {
+    display: flex;
+    align-items: center;
+
     color: var(--secondary-text-color);
 }
 .portfolio-tel-link:hover,
