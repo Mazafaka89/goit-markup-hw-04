@@ -610,7 +610,7 @@ letter-spacing: 0.03em;
 }
 
 .footer-social-title {
-font-weight: 700;
+
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em; 
@@ -907,7 +907,13 @@ letter-spacing: 0.03em;
 }
 
 .portfolio-footer-social-title {
-    margin-bottom: 20px;
+    
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+margin-bottom: 20px;
 
     color: var(--white-bc-color);
 }
